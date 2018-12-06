@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Trivia Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.js"
+    integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+    crossorigin="anonymous"></script>
+    <script src="assets/javascript/app.js"></script>
+</head>
+<body>
+
+    <div id = container>
+        <div id = head><h1>TRIVIA!</h1></div><br>
+        <div id = time><h3>Time Remaining: <span id = timeleft></span> seconds</h3></div>
+        <div id = game>
+            <button class = start>START!</button>
+        </div>
+
+        <div class = question1>
+            <div id = q1><h2>Mick Jagger is in which band</h2></div><br>
+            <div id = r1 class = answer><h3>Rolling Stones</h3></div>
+            <div class = 'w1 answer'><h3>Pink Floyd</h3></div>
+            <div class = 'w1 answer'><h3>The Clash</h3></div>
+            <div class = 'w1 answer'><h3>The Beatles</h3></div>
+        </div>
+
+        <div id = q1win>
+            <div><h1>ROCK ON!</h1></div>
+            <img src = 'assets/images/MickJaggerWin.jpg'>
+        </div>
+
+        <div id = q1lose>
+            <div><h1>WRONG!</h1></div>
+            <div><h2>The correct answer was Rolling Stones!</h2></div>
+            <img src = 'assets/images/MickJaggerLose.jpg'>
+        </div>
+
+        <div id = q1oot>
+            <div><h1>Out of time!</h1></div>
+            <div><h2>The correct answer was Rolling Stones!</h2></div>
+            <img src = 'assets/images/MickJaggerLose.jpg'>
+        </div>
+
+        <div class = question2>
+                <div id = q2><h2>Michael Jordan played for which team</h2></div><br>
+                <div id = r2 class = answer><h3>Chicago Bulls</h3></div>
+                <div class = 'w2 answer'><h3>Los Angeles Lakers</h3></div>
+                <div class = 'w2 answer'><h3>Seattle Sonics</h3></div>
+                <div class = 'w2 answer'><h3>Boston Celtics</h3></div>
+        </div>
+    
+        <div id = q2win>
+            <div><h1>SWISH!</h1></div>
+            <img src = 'assets/images/MJHappy.jpg'>
+        </div>
+
+        <div id = q2lose>
+            <div><h1>BRICK!</h1></div>
+            <div><h2>The correct answer was Chicago Bulls!</h2></div>
+            <img src = 'assets/images/MJSad.jpg'>
+        </div>
+
+        <div class = question3>
+                <div id = q3><h2>The Shining was written by what author</h2></div><br>
+                <div id = r3 class = answer><h3>Stephen King</h3></div>
+                <div class = 'w3 answer'><h3>J.R.R. Tolkein</h3></div>
+                <div class = 'w3 answer'><h3>J.K. Rowling</h3></div>
+                <div class = 'w3 answer'><h3>R.L. Stein</h3></div>
+        </div>
+    
+        <div id = q3win>
+            <div><h1>NICE!</h1></div>
+            <img src = 'assets/images/q3win.jpg'>
+        </div>
+
+        <div id = q3lose>
+            <div><h1>WRONG!</h1></div>
+            <div><h2>The correct answer was Stephen King!</h2></div>
+            <img src = 'assets/images/q3wrong.jpg'>
+        </div>
+
+        <div id = gameover>
+            <div><h1>All Done!</h1></div>
+            <div><h2>Here's How You Did!</h2></div>
+            <button class = restart>RESTART!</button>
+        </div>
+        
+
+
+    </div>
+    
+</body>
+</html>
