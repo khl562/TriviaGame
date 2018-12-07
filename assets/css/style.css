@@ -1,14 +1,15 @@
 .start {
     width: 150px;
     height: 50px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+      Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
     color: blue;
     font-weight: bolder;
     position: relative;
     top: 150px;
-}
+  }
 
-#container {
+  #container {
     position: absolute;
     width: 900px;
     height: 700px;
@@ -17,56 +18,64 @@
     margin: 50px;
     padding: 50px;
     left: 350px;
-}
+  }
 
-#time {
+  #time {
     display: none;
-}
+  }
 
-.question1{
+  .question1 {
     display: none;
-}
+  }
 
-#q1win {
+  #q1win {
     display: none;
-}
+  }
 
-#q1lose {
+  #q1lose {
     display: none;
-}
+  }
 
-#q1oot {
+  #q1oot {
     display: none;
-}
+  }
 
-.question2{
+  #q3oot {
     display: none;
-}
+  }
 
-#q2win {
+  #q2oot {
     display: none;
-}
+  }
 
-#q2lose {
+  .question2 {
     display: none;
-}
+  }
 
-img {
+  #q2win {
+    display: none;
+  }
+
+  #q2lose {
+    display: none;
+  }
+
+  img {
     height: 300px;
-}
+  }
 
-.question3{
+  .question3 {
     display: none;
-}
+  }
 
-#q3win {
+  #q3win {
     display: none;
-}
+  }
 
-#q3lose {
+  #q3lose {
     display: none;
-}
+  }
 
-#gameover {
+  #gameover {
     display: none;
-}
+  }
